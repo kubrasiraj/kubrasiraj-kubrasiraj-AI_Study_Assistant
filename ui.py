@@ -153,7 +153,7 @@ def setup_sidebar():
         
         # Learning Mode Selection
         st.markdown("### 📖 Learning Mode")
-        mode_options = ["Student Mode", "Easy Mode", "Exam Mode", "Interview Mode"]
+        mode_options = ["Student Mode", "Easy Mode", "Exam Mode"]
         selected_mode = st.selectbox(
             "Select your learning mode",
             mode_options,
